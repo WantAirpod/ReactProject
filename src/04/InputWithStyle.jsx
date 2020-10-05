@@ -29,7 +29,7 @@ class Input extends PureComponent {
   render() {
     const { errorMessage, label, name, value, type } = this.props;
     return (
-      <div className="input-filed">
+      <div className="input-field">
         <input
           id={"input_${name}"}
           className="validate"

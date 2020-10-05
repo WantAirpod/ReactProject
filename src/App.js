@@ -6,7 +6,15 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
+        <nav>
+          <div className="nav-wrapper">
+            <div> 두잇! 리액트 시작하기</div>
+          </div>
+        </nav>
+        <h1> 머티리얼 CSS</h1>
+      </div>
+      /*<div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -21,7 +29,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
-      </div>
+      </div>*/
     );
   }
 }

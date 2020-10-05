@@ -34,7 +34,7 @@ class Input extends PureComponent {
         <input
           id={"input_${name}"}
           ref={this.setRef}
-          onChane={this.handleChange}
+          onChange={this.handleChange}
           onFocus={onFocus}
           value={value}
           type={type}
