@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "0.18.1",
+    "classlist.js": "^1.1.20150312",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16.3": "^1.4.1",
     "moment": "^2.24.0",
@@ -54,6 +55,10 @@
     "storybook-addon-jsx": "^7.1.13"
   },
   "devDependencies": {
-    "@storybook/react": "^6.0.21"
+    "@storybook/addon-actions": "5.2.6",
+    "@storybook/addons": "5.2.6",
+    "@storybook/react": "^6.0.21",
+    "babel": "^6.23.0",
+    "sass-loader": "^10.0.2"
   }
 }
